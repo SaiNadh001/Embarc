@@ -1,0 +1,42 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body {
+	margin: 0px; /* adjust this if the height of the menu bar changes */
+	padding:0px;
+	
+}
+
+.splash {
+	background: #fff;
+	background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #ecebea 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#ecebea));
+	background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#ecebea 100%);
+	background: -o-radial-gradient(center, ellipse cover, #ffffff 0%,#ecebea 100%);
+	background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%,#ecebea 100%);
+	background: radial-gradient(ellipse at center, #ffffff 0%,#ecebea 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ecebea',GradientType=1 );
+	width: 100%;
+	height:100%;
+ 	position:absolute;
+ }
+.splash-content {
+	width: 100%;
+ 	margin: 0 auto;
+	padding-top: 0%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	/* overflow: hidden;*/
+ 	height:127px;
+	position:absolute;
+	top:50%;
+	left:0%;
+	margin:-70px 0 0 0px;/*position:relative;*/
+}
+
+@media (max-width: 320px){
+.splash-content img{
+	width:300px;
+}

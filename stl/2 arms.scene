@@ -1,0 +1,16 @@
+[Scene]
+NbElements=2
+BackgroundColor1=239,227,199
+BackgroundColor2=40,60,100
+
+; 3D object origine = 3D base object height - Arm origin to B axis
+
+[Element1]
+FileName="Arm.asy"
+Name=Realtime
+Position=0,0,0
+
+[Element2]
+FileName="Arm.asy"
+Name=Reference
+Position=0,0,0

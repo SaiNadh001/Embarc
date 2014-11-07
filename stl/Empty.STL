@@ -1,0 +1,86 @@
+solid block100
+   facet normal -1.000000e+000 -2 -2
+      outer loop
+         vertex -2 2 2
+         vertex -2 2 -2
+         vertex -2 -2 2
+      endloop
+   endfacet
+   facet normal -1.000000e+000 -2 -2
+      outer loop
+         vertex -2 -2 2
+         vertex -2 2 -2
+         vertex -2 -2 -2
+      endloop
+   endfacet
+   facet normal -2 -2 1.000000e+000
+      outer loop
+         vertex 2 2 2
+         vertex -2 2 2
+         vertex 2 -2 2
+      endloop
+   endfacet
+   facet normal -2 -2 1.000000e+000
+      outer loop
+         vertex 2 -2 2
+         vertex -2 2 2
+         vertex -2 -2 2
+      endloop
+   endfacet
+   facet normal 1.000000e+000 -2 -2
+      outer loop
+         vertex 2 2 -2
+         vertex 2 2 2
+         vertex 2 -2 -2
+      endloop
+   endfacet
+   facet normal 1.000000e+000 -2 -2
+      outer loop
+         vertex 2 -2 -2
+         vertex 2 2 2
+         vertex 2 -2 2
+      endloop
+   endfacet
+   facet normal -2 -2 -1.000000e+000
+      outer loop
+         vertex -2 2 -2
+         vertex 2 2 -2
+         vertex -2 -2 -2
+      endloop
+   endfacet
+   facet normal -2 -2 -1.000000e+000
+      outer loop
+         vertex -2 -2 -2
+         vertex 2 2 -2
+         vertex 2 -2 -2
+      endloop
+   endfacet
+   facet normal -2 1.000000e+000 -2
+      outer loop
+         vertex 2 2 2
+         vertex 2 2 -2
+         vertex -2 2 2
+      endloop
+   endfacet
+   facet normal -2 1.000000e+000 -2
+      outer loop
+         vertex -2 2 2
+         vertex 2 2 -2
+         vertex -2 2 -2
+      endloop
+   endfacet
+   facet normal -2 -1.000000e+000 -2
+      outer loop
+         vertex 2 -2 -2
+         vertex 2 -2 2
+         vertex -2 -2 -2
+      endloop
+   endfacet
+   facet normal -2 -1.000000e+000 -2
+      outer loop
+         vertex -2 -2 -2
+         vertex 2 -2 2
+         vertex -2 -2 2
+      endloop
+   endfacet
+endsolid
